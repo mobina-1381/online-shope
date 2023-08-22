@@ -1,0 +1,64 @@
+
+
+
+:root{
+    --color-purple:#5454D4 !important;
+}
+
+.text-purple{
+    color: var(--color-purple);
+}
+.bg-purple{
+    color:var(--color-purple);
+}
+
+.bg-nav{
+    background-color: #000;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show
+ .nav-link:focus,
+ .nav-link:hover{
+    color: var(--color-purple) !important;
+ }
+
+
+
+body{
+    background-color: #000;
+    direction: rtl;
+
+}
+
+.bg-header{
+    background: url(/car.img\ \(2\).svg);
+    background-size: cover;
+    height: 800px;
+}
+
+
+.px-5 {
+    padding-right: 35.5rem!important;
+    padding-left: 3rem!important;
+}
+
+
+.btn-1{
+    width: 100px;
+    height: 100px;
+}
+
+
+.h1, h1 {
+    font-size: 1.5rem;
+}
+
+.px-3 {
+    padding-right: 3rem!important;
+    padding-left: 1rem!important;
+}
+
+
+.w-custom-50{
+    width: 50%;
+}

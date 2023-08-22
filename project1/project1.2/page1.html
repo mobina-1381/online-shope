@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>page1</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="bg-header">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="container-fluid">
+        <img src="">
+        </a>
+        <button class="navbar-toggler order-first bg-nav" type="offcanvas" data-bs-toggle="offcanvas"
+          data-bs-target="#mobin1" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse order-5" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active mx-3" aria-current="page" href="index.html">خانه</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3" href="project1.2/page1.html">درباره ما</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3" href="page2/page2.html" target="_blank">تماس با ما</a>
+            </li>
+          </ul>
+
+
+          <button class="btn btn-outline-light f-16 py-2 px-4  rounded-5" type="modal" data-bs-toggle="modal"
+            data-bs-target="#mobin3">
+            ورود
+          </button>
+          <button class="btn btn-outline-light f-16 py-2 px-4 rounded-5" type="modal" data-bs-toggle="modal"
+            data-bs-target="#modal-2">ثبت نام</button>
+
+        </div>
+    </nav>
+    <div class="container">
+      <div class="col-12 mt-5">
+        <div class="alert alert-dark" role="alert">
+          <h2 class="title text-black mx-5 px-5 mb-2">موسسه اجاره اتومبیل ماشیران</h2>
+          <p class="text-black mx-5 px-3">مجموعه ماشیران با بیش از 7 سال سابقه تخصصی در این صنعت توانسته با رضایت مندی
+            مشتریان عزیز، فعالیت خود را ادامه و خدمات رنت خودرو را در سرتاسر کشور عزیزمان گسترش دهد .
+            از افتخارات متعدد این مجموعه می توان به همکاری با ارگان های دولتی و خصوصی اشاره کرد که شامل اجاره خودروهای
+            تشریفاتی دولتی برای سیاستمداران و مهمانان ویژه خارجی با قیمت های مناسب و خدمات دهی با کیفیت بسیار مطلوب می
+            باشد. همکاری با این مجموعه می تواند برایتان بسیار متفاوت باشد .
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="modal" tabindex="-1" id="mobin3">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="mb-3">
+            </div>
+            <h5 class="modal-title">ورود </h5>
+            <button type="button" class="btn-close me-lg-5" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3 row">
+              <label for="inputEmail" class="col-sm-2 col-form-label">ایمیل</label>
+              <div class="col-sm-10">
+                <input type="Email" class="form-control" id="inputEmail">
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="inputPassword" class="col-sm-2 col-form-label">پسورد</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword">
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">ورود</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">بستن</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" tabindex="-1" id="modal-2">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="mb-3">
+          </div>
+          <h2 class="modal-title">ثبت نام</h2>
+          <button type="button" class="btn-close me-lg-4" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3 row">
+            <label for="formFile" class="form-label">پیوند فایل</label>
+            <input class="form-control" type="file" id="formFile">
+          </div>
+        </div>
+        <div class="mb-3 row">
+          <label for="inputEmail" class="col-sm-2 col-form-label">ایمیل</label>
+          <div class="col-sm-10">
+            <input type="Email" class="form-control" id="inputEmail">
+          </div>
+        </div>
+        <div class="mb-3 row">
+          <div class="row g-3  mx-lg-1 align-items-center">
+            <div class="col-auto">
+              <label for="inputPassword6" class="col-form-label">رمز عبور</label>
+            </div>
+            <div class="col-auto">
+              <input type="password" id="inputPassword6" class="form-control" aria-labelledby="passwordHelpInline">
+            </div>
+            <div class="col-auto">
+              <span id="passwordHelpInline" class="form-text">
+                حداقل بین 8 تا 20 کلمه (حداقل یک حرف بزرگ)
+              </span>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">ورود</button>
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">بستن</button>
+            </div>
+
+          </div>
+          <!--menu offcanvas-->
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="mobin1" aria-labelledby="offcanvasExampleLabel"
+            data-bs-theme="dark">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <button class="btn btn-outline-light f-16 py-2 px-4  rounded-5" type="modal" data-bs-toggle="modal"
+                data-bs-target="#mobin3">
+                ورود
+              </button>
+              <button class="btn btn-outline-light f-16 py-2 px-4 rounded-5" type="modal" data-bs-toggle="modal"
+                data-bs-target="#modal-2">ثبت نام</button>
+
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active mx-3" aria-current="page" href="#">خانه</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-3" href="#">درباره ما</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-3" href="#">خدمات</a>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
